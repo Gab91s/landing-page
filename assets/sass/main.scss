@@ -1428,3 +1428,50 @@
 			}
 
 	}
+
+/* The Lightbox (initially hidden) */
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  }
+  
+  /* Lightbox Content */
+  .lightbox-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 20px;
+	right: 35px;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  /* Full-size Image */
+  .lightbox-image {
+	max-width: 90%;
+	max-height: 90%;
+	border-radius: 10px;
+  }
+
+  .food-image {
+    width: 150px;  /* Set a width for the thumbnail */
+    height: auto;  /* Maintain aspect ratio */
+    cursor: pointer;  /* Make it clear that the image is clickable */
+    border-radius: 5px;  /* Optional: Add rounded corners for styling */
+}
+
+  
