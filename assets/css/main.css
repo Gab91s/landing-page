@@ -2198,4 +2198,28 @@ ul.menu li:first-child {
   border-radius: 5px; /* Optional: Add rounded corners for styling */
 }
 
+/* Only apply these styles to elements with the overlay-image class */
+.overlay-image {
+  position: relative;
+}
+
+.overlay-image .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/* strike though text when hovering with mouse */
+.hover-strike:hover {
+  text-decoration: line-through;
+}
+
 /*# sourceMappingURL=main.css.map */
